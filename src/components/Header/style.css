@@ -1,0 +1,33 @@
+
+
+.main-header {
+    display: flex;
+    align-items: center;
+}
+
+.main-header img {
+    height: 66px;
+}
+
+.main-header p {
+    flex: 1;
+    margin-left: 22px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-header a {
+    width: max-content;
+}
+
+.main-header button {
+    background-color: transparent;
+    border: none;
+    margin: 0 22px;
+    cursor: pointer;
+    transition: filter 200ms;
+}
+
+.main-header button:hover {
+    filter: brightness(80%);
+}

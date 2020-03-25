@@ -1,0 +1,36 @@
+.main-register {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-register .register-form {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
+.main-register .register-form .form-control {
+    margin-bottom: 5px;
+}
+
+.main-register .register-section {
+    width: 100%;
+    max-width: 480px;
+}
+
+.main-register .register-section h1 {
+    margin: 64px 0 22px
+}
+
+.main-register .register-section p {
+    margin: 0 0 42px;
+    color: #737380;
+}

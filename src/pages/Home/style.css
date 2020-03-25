@@ -1,0 +1,55 @@
+.main-home {
+    width: 100%;
+    max-width: 1040px;
+
+    margin: 28px auto;
+}
+
+.main-home section h1 {
+    margin-top: 34px;
+    margin-bottom: 12px;
+}
+
+.main-home section > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 22px;
+}
+
+.main-home section > ul li {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 18px 24px;
+    list-style-type: none;
+    position: relative;
+}
+
+.main-home section > ul li button {
+    position: absolute;
+    right: 24px;
+    top: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: filter 200ms;
+}
+
+.main-home section > ul li button:hover {
+    filter: brightness(80%);
+}
+
+.main-home section > ul li strong {
+    display: block;
+    color: #434343;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.main-home section > ul li strong:not(:first-child) {
+    margin-top: 26px;
+}
+
+.main-home section > ul li p {
+    color: #737380;
+    line-height: 22px;
+}

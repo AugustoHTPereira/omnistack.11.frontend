@@ -1,0 +1,50 @@
+.main-newincident {
+    width: 100%;
+    max-width: 1040px;
+
+    margin: 28px auto;
+}
+
+.main-newincident .new-incident-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+    margin-bottom: 12px;
+}
+
+.main-newincident .new-incident-content .new-incident-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 480px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 22px 24px;
+    height: max-content;
+}
+
+.main-newincident .new-incident-content .new-incident-description h1 {
+    font-size: 18px;
+}
+
+.main-newincident .new-incident-content .new-incident-description p {
+    color: #737380;
+    margin-top: 16px;
+    line-height: 22px;
+}
+
+.main-newincident .new-incident-content form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 66px;
+}
+
+.main-newincident .new-incident-content form .button,
+.main-newincident .new-incident-content form .form-control + .form-control:not(:first-child) {
+    margin-top: 5px;
+}
+
+.main-newincident .new-incident-content form textarea {
+    resize: vertical;
+}

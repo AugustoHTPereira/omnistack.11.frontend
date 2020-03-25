@@ -1,0 +1,36 @@
+.main-logon {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-logon > img {
+    width: 100%;
+    max-width: 480px;
+}
+
+.main-logon section.login-form {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    margin-right: 45px;
+    flex-direction: column;
+}
+
+.main-logon section.login-form form {
+    margin-top: 67px
+}
+
+.main-logon section.login-form form h1 {
+    margin-bottom: 12px;
+    font-size: 28px;
+}
+
+.main-logon section.login-form form button {
+    margin-top: 5px;
+}
